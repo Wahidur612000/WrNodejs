@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Security Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .question {
+            margin: 20px 0;
+        }
+        .question h3 {
+            font-size: 1.2em;
+        }
+        .options {
+            margin: 10px 0;
+        }
+        .options label {
+            display: block;
+            margin-bottom: 8px;
+        }
+        .submit-btn {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+        }
+        .submit-btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Network Security Quiz</h1>
+    <form action="" method="post">
+        <!-- Question 1 -->
+        <div class="question">
+            <h3>What are two forms of software programs or processes that provide access to the network? (Choose two.)</h3>
+            <div class="options">
+                <input type="checkbox" id="antivirus" name="software" value="Antivirus software">
+                <label for="antivirus">Antivirus software</label>
+
+                <input type="checkbox" id="application" name="software" value="Application layer services">
+                <label for="application">Application layer services</label>
+
+                <input type="checkbox" id="gaming" name="software" value="Gaming software">
+                <label for="gaming">Gaming software</label>
+
+                <input type="checkbox" id="network_app" name="software" value="Network applications">
+                <label for="network_app">Network applications</label>
+
+                <input type="checkbox" id="productivity" name="software" value="Productivity software">
+                <label for="productivity">Productivity software</label>
+
+                <input type="checkbox" id="virtual_machine" name="software" value="Virtual machine software">
+                <label for="virtual_machine">Virtual machine software</label>
+            </div>
+        </div>
+
+        <!-- Question 2 -->
+        <div class="question">
+            <h3>Which two network protocols are used to establish a remote access network connection to a device? (Choose two.)</h3>
+            <div class="options">
+                <input type="checkbox" id="ftp" name="protocol" value="File Transfer Protocol (FTP)">
+                <label for="ftp">File Transfer Protocol (FTP)</label>
+
+                <input type="checkbox" id="http" name="protocol" value="Hypertext Transfer Protocol (HTTP)">
+                <label for="http">Hypertext Transfer Protocol (HTTP)</label>
+
+                <input type="checkbox" id="rc" name="protocol" value="Remote Connect (RC)">
+                <label for="rc">Remote Connect (RC)</label>
+
+                <input type="checkbox" id="ssh" name="protocol" value="Secure Shell (SSH)">
+                <label for="ssh">Secure Shell (SSH)</label>
+
+                <input type="checkbox" id="smtp" name="protocol" value="Simple Mail Transfer Protocol (SMTP)">
+                <label for="smtp">Simple Mail Transfer Protocol (SMTP)</label>
+
+                <input type="checkbox" id="telnet" name="protocol" value="Telnet">
+                <label for="telnet">Telnet</label>
+            </div>
+        </div>
+
+        <!-- Question 3 -->
+        <div class="question">
+            <h3>What Windows 10 tool is useful to determine which applications are using network services on a host?</h3>
+            <div class="options">
+                <input type="radio" id="control_panel" name="windows_tool" value="Control panel">
+                <label for="control_panel">Control panel</label>
+
+                <input type="radio" id="data_usage" name="windows_tool" value="Data Usage">
+                <label for="data_usage">Data Usage</label>
+
+                <input type="radio" id="file_manager" name="windows_tool" value="File Manager">
+                <label for="file_manager">File Manager</label>
+
+                <input type="radio" id="windows_defender" name="windows_tool" value="Windows Defender Firewall">
+                <label for="windows_defender">Windows Defender Firewall</label>
+
+                <input type="radio" id="windows_explorer" name="windows_tool" value="Windows Explorer">
+                <label for="windows_explorer">Windows Explorer</label>
+            </div>
+        </div>
+
+        <!-- Submit Button -->
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+</body>
+</html>
